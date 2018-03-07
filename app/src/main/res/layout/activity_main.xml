@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wan.wilma.samsungdemoapp.MainActivity">
+
+    <Button
+        android:id="@+id/btnQRcode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="QRcode"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:id="@+id/btnBarcode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnQRcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="Barcode"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/btnSign"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign"
+        android:textSize="24sp"
+        android:layout_below="@id/btnQRcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+</RelativeLayout>
